@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>uncle phil</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="./awesome/css/all.css">
   <link rel="stylesheet" href="./awesome/css/fontawesome.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -183,20 +184,27 @@
     <section class="contact" id="contact">
       <h1 class="myHeading"><span>contact</span>me</h1>
 
-      <form action="" class="action">
-        <input type="text" placeholder="your name:" class="box" data-aos="fade-up" data-aos-duration="3000">
-        <input type="email" name="" id="" placeholder="your e-mail:" class="box" data-aos="flip-right" data-aos-duration="3000">
-        <input type="text" placeholder="subject" class="box" data-aos="zoom-in" data-aos-duration="3000">
-        <textarea name="" id="textArea" cols="30" rows="10" placeholder="message here:" class="box" data-aos="flip-left"
+      <form class="action" onsubmit="sendEmail (); reset(); return false;">
+        <label for="yourName">Your Name:</label><br>
+        <input id="yourName" type="text" placeholder="your name:" class="box name" data-aos="zoom-in" data-aos-duration="2000" required>
+
+        <label for="yourEmail">your Email</label><br>
+        <input type="email" name="" id="yourEmail" placeholder="your email:" class="box email" data-aos="flip-right" data-aos-duration="2000" required>
+
+        <label for="textArea">Your Message:</label><br>
+        <textarea name="" id="textArea" cols="30" rows="10" placeholder="message here:" class="box message" data-aos="zoom-out"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="3000"></textarea>
-        <input type="submit" value="send message" class="button">
+        data-aos-duration="2000" required></textarea>
+
+        <button type="submit" class="button">send message</button>
+
       </form>
     </section>
     <!-- contact end -->
    
 </body>
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./assect/java/mysite.js"></script>
 </html>

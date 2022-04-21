@@ -583,7 +583,7 @@ margin: 1rem auto;
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
   margin: 0.7rem 0;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 1.5rem;
   color: var(--black);
   background: none;
