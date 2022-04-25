@@ -295,6 +295,10 @@ box-shadow: var(--box-shadow-inset);
 .navbar a{
   color: var(--blue);
 }
+label{
+  color: #6b91e9;
+  margin: 10px;
+}
 /* menu-button */
 #menu-btn{
   box-shadow: var(--box-shadow);

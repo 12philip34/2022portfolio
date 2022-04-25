@@ -14,21 +14,26 @@ menu.onclick = () =>{
 
 
 // CLOSING FOR MENU TAG
-// function herf() {
-//   document.getElementById('MyHeader').style.top = '-110%';
+function herf() {
+  // document.getElementById('MyHeader').style.top = '-110%';
 
-//   menu.classList.toggle('fa-times');
-//   header.classList.toggle('active');
+  menu.classList.toggle('fa-times');
+  header.classList.toggle('active');
 
-//   if (menu.classList.contains('fa-times')) {
-//   menu.classList.remove('fa-times');
-//   header.classList.add('active');
-//   }
-//   document.body.classList.remove('active');
-// }
-// // else if (condition) {
+  if(menu.classList.contains('fa-times')) {
+    document.querySelector('.header').style.transition = '3s';
+    document.querySelector('.header').style.right = '0%';
+  }
+
+  // if (menu.classList.contains('fa-times')) {
+  // menu.classList.remove('fa-times');
+  // header.classList.add('active');
+  // }
+  document.body.classList.remove('active');
+}
+// else if (condition) {
   
-// }
+
 
 
 
