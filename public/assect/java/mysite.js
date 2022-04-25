@@ -12,6 +12,7 @@ menu.onclick = () =>{
   }
 }
 
+
 // CLOSING FOR MENU TAG
 // function herf() {
 //   document.getElementById('MyHeader').style.top = '-110%';
