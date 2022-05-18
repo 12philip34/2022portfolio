@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nssienphilip.netlify.app
+Token: 502f44b10adcd272efbebf459b7ec87cc259349cf622fdacfa90a04d4a0e489f
