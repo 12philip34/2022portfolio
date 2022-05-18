@@ -11,7 +11,7 @@
                 -.4rem -.4rem 1rem #fff inset;
   --box-shadow-length: .5rem .5rem 1.1rem #ccc,
                 -.5rem -.5rem 1.1rem #fff;
-}
+} 
 /* root   end */
 .stars {
   background-color: whitesmoke;
@@ -286,6 +286,25 @@ body.active{
   color: var(--black);
   transition: 1s;
 }
+.coffee{
+   color: white;
+  background: var(--blue);
+  box-shadow: var(--box-shadow);
+  font-size: 2rem;
+  margin: 2.5rem 0;
+  padding: .7rem;
+  border-radius: 5rem;
+  display: block;
+  transition: 1s;
+}
+.coffee:hover{
+  background: var(--bg-color);
+  color: #6b91e9;
+}
+.fa-coffee{
+  /* color: goldenrod; */
+}
+
 /* header a:hover */
 .header .navbar a:hover{
 box-shadow: var(--box-shadow-inset);
