@@ -301,10 +301,6 @@ body.active{
   background: var(--bg-color);
   color: #6b91e9;
 }
-.fa-coffee{
-  /* color: goldenrod; */
-}
-
 /* header a:hover */
 .header .navbar a:hover{
 box-shadow: var(--box-shadow-inset);

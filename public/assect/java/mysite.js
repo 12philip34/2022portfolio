@@ -25,10 +25,6 @@ function herf() {
     document.querySelector('.header').style.right = '0%';
   }
 
-  // if (menu.classList.contains('fa-times')) {
-  // menu.classList.remove('fa-times');
-  // header.classList.add('active');
-  // }
   document.body.classList.remove('active');
 }
 // else if (condition) {
